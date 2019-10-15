@@ -59,7 +59,7 @@ yargs.command({
     describe: 'Read a note',
     builder: {
         title: {
-            describe: 'Search for title',
+            describe: 'Note title',
             demandOption: true,
             type: 'string'
         }
